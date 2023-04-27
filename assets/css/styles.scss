@@ -188,26 +188,24 @@ header{
         top: 80px;
         gap:0;
         flex-direction: column;
+        justify-content: center;
         background-color: $primary-color-7;
         width: 100%;
         text-align: center;
         transition: 0.4s;
-        padding-bottom: 50px;
-    }
+        height: 80%
+        }
     .nav-item{
-        margin: 18px 0;
+        padding: 36px;
     }
     .nav-menu.active{
         left: 0;
         li .nav-link{
-            font-size: 32px;
-            padding: 25px;
-            
-
+            font-size: 24px;
         }
-        .nav-item{
-            margin: 40px 0px;
-        }
+        // .nav-item{
+        //     // margin: 40px 0px;
+        // }
     }
 }
 

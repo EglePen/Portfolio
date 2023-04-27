@@ -159,24 +159,21 @@ header li a:hover {
     top: 80px;
     gap: 0;
     flex-direction: column;
+    justify-content: center;
     background-color: #242320;
     width: 100%;
     text-align: center;
     transition: 0.4s;
-    padding-bottom: 50px;
+    height: 80%;
   }
   .nav-item {
-    margin: 18px 0;
+    padding: 36px;
   }
   .nav-menu.active {
     left: 0;
   }
   .nav-menu.active li .nav-link {
-    font-size: 32px;
-    padding: 25px;
-  }
-  .nav-menu.active .nav-item {
-    margin: 40px 0px;
+    font-size: 24px;
   }
 }
 @media (min-width: 1024px) {
